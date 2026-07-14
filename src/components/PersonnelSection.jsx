@@ -8,6 +8,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdContentCopy } from "react-icons/md";
 import { MdFactory } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const person = {
   id: 1,
@@ -22,7 +23,8 @@ const person = {
   faceBook: "https://www.facebook.com/share/1FozzX7STo/?mibextid=wwXIfr",
   twitter: "@jthorne_creative",
   instagram:
-    "https://www.instagram.com/adel.elkady.offical?igsh=MXM3dHN5Y3lmeXFuaQ==",
+    "https://www.instagram.com/adelelkady0012?igsh=MWZpZHBiMzc2ZDhycg==",
+  x: "https://x.com/AdelElkady3",
   company: "EL NASR SALINES CO.",
   whatsapp: "https://wa.me/201283007008",
 };
@@ -87,6 +89,7 @@ function PersonnelCard({ person }) {
 
             <SocialLink icon={<FaInstagram />} href={`${person.instagram}`} />
             <SocialLink icon={<FaWhatsapp />} href={`${person.whatsapp}`} />
+            <SocialLink icon={<FaXTwitter />} href={`${person.x}`} />
           </div>
         </div>
       </div>
